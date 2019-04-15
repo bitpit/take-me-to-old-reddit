@@ -1,0 +1,17 @@
+{
+  "name": "Take Me To Old Reddit",
+  "version": "0.1.0",
+  "description": "Automatically redirect any reddit link to the 'old.reddit.com' version, because the redesign suuuuucks!",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "*://reddit.com/*",
+    "*://www.reddit.com/*",
+    "webRequestBlocking"
+  ]
+}

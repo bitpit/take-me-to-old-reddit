@@ -1,1 +1,4 @@
+# apple's stupid ass directory config files
 .DS_Store
+# file usec for testing out random ideas - anything worthwhile gets checked in under a real file
+study.js

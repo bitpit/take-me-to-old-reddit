@@ -8,6 +8,11 @@
       "background.js"
     ]
   },
+  "icons": { 
+    "16": "icon/icon_16.png",
+    "48": "icon/icon_48.png",
+    "128": "icon/icon_128.png" 
+  },
   "permissions": [
     "webRequest",
     "*://reddit.com/*",

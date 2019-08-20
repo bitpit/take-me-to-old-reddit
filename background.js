@@ -22,7 +22,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       '*://reddit.com/*',
       '*://www.reddit.com/*',
     ],
-    types: ['main_frame', 'sub_frame', 'stylesheet', 'script', 'image', 'object', 'xmlhttprequest', 'other']
+    types: ['main_frame', 'sub_frame']
   },
   ['blocking']
 );
